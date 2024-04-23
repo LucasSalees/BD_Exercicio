@@ -2,7 +2,7 @@ CREATE DATABASE tarefa_01;
 go
 use tarefa_01
 go
-CREATE TABLE Forcenedor 
+CREATE TABLE Fornecedor 
 (
     codigo INT PRIMARY KEY,
     nome VARCHAR (30),
@@ -30,14 +30,4 @@ CREATE TABLE Cliente (
     Codigo INT PRIMARY KEY,
     Nome VARCHAR(30),
     Endereco VARCHAR(50)
-);
-CREATE TABLE Fornecedor_Produto(
-  Cod_Fornecedor INT,
-  Cod_Produto INT
-);
-CRATE TABLE Produto_Venda(
-  Cod_Produto INT,
-  Num_NFiscal INT,
-  Preço FLOAT,
-  Quantidade INT
 );
